@@ -17,6 +17,7 @@ app.get('/', (req, res) => {
 
 //index listing all restaurants
 //memo: HTML_<form>_action should always equals to route "/restaurants" for the outcome /restaurants?keyword=XXX
+//memo: HTML_<input> should always place value. IF NOT, when users key something in search bar, it can't match anything..Orz
 app.get('/restaurants', (req, res) => {
   const keyword = req.query.keyword?.replace(/\s+/g, '').trim()
   const matchedRestaurants = keyword
