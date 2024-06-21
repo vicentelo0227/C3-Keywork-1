@@ -4,7 +4,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/vicentelo0227/C3-Keywork-1">
-    <img src="images/restaurant.webp" alt="Logo" width="80" height="80">
+    <img src="images/restaurant.png" alt="Logo" width="80" height="80">
   </a>
 
 
