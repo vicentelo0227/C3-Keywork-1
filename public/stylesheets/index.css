@@ -24,10 +24,19 @@ header {
   margin: 0 auto;
   max-width: 680px;
   background-color: #fce2cf;
-  border-radius: 8px;
+  border-radius: 8px 0px 0px 8px;
   padding: 20px 30px;
-  border: 0;
+  /* border: 0; */
   margin-top: -60px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+#search-button {
+  color: rgba(155, 75, 75);
+  background-color: #FFFCEC;
+  border-radius: 0px 8px 8px 0px;
+  max-width: 100px;
+  border: 1px solid rgba(222, 226, 230);
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
 }
 
